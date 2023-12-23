@@ -22,3 +22,5 @@ window = MainWindow()
 window.show()
 
 app.exec()
+
+# https://pixabay.com/vectors/icon-summer-beach-sunset-5577198/
