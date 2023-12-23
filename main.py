@@ -11,8 +11,14 @@ class MainWindow(QMainWindow):
         self.setFixedSize(QSize(500, 700))
         self.setWindowIcon(QtGui.QIcon('icon.png'))
         self.setWindowTitle("My App")
+        self.setStyleSheet('background-color: green;')
 
         button = QPushButton("hello world")
+        font = QtGui.QFont()
+        button.setFont(font)
+        button.setFixedSize(QSize(70,40))
+        button.setStyleSheet('background-color: yellow;')
+
         self.setCentralWidget(button)
 
 
